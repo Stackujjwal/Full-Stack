@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="exp1.3.css">
 </head>
 <body>
 
-<input type="checkbox" id="theme">
+    <input type="checkbox" id="theme-toggle">
 
-<div class="dashboard">
-    <header>
-        <h2>Admin Dashboard</h2>
-        <label for="theme" class="toggle">☀️ Light</label>
-    </header>
+    <div class="dashboard">
+        <div class="top-bar">
+            <h1>Admin Dashboard</h1>
+            <label for="theme-toggle" class="mode-btn">
+                Light Mode
+            </label>
+        </div>
 
-    <aside class="card">Navigation</aside>
-
-    <main>
-        <div class="card">Analytics</div>
-        <div class="card">Users</div>
-        <div class="card">Settings</div>
-    </main>
-</div>
+        <div class="card-row">
+            <div class="card">Navigation</div>
+            <div class="card">Analytics</div>
+            <div class="card">Users</div>
+            <div class="card">Settings</div>
+        </div>
+    </div>
 
 </body>
 </html>
