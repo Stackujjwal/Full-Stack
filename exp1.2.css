@@ -1,0 +1,25 @@
+.deposit {
+  background-color: #1e90ff; /* blue */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.withdraw {
+  background-color: #ff2e2e; /* red */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
